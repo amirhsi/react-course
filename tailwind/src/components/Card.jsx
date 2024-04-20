@@ -1,4 +1,6 @@
-function Card() {
+function Card(props) {
+  console.log(props);
+
   return (
     <div>
       <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
